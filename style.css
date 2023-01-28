@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+
+.hidden{
+    display: none;
+}
+
+*{
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Jua', sans-serif;
+    text-shadow: -1px 0 #5D5D5D, 0 1px #5D5D5D, 1px 0 #5D5D5D, 0 -1px #5D5D5D;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+input{
+    color: black;
+}
+
+button{
+    color: #EAEAEA;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+h2{
+    font-size: 12vw;
+    margin-top: 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.5vw;
+    padding: 0%;
+}
+
+form {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.search{
+    width: 300px;
+    height: 200px;
+}
+
+li{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2vw;
+}
+
+#weather{
+    position: absolute;
+    top: 0;
+    font-size: 1.5vw;
+}
+
+input{
+    display: inline-block;
+    height: 4vh;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    width: 35vw;
+    color: white;
+    background-color:  transparent;
+    font-size: 2vw;
+}
+
+input::placeholder{
+    color: #EAEAEA;
+    opacity: 0.5;
+    font-size: 1.5vw;
+}
+
+select{
+    background-color: transparent;
+    width: auto;
+    height: 4vh;
+}
+
+#mail{
+    position: absolute;
+    top : 0;
+    font-size : 2vw;
+    height: 3vw;
+    width: 7vw;
+    left : 93vw;
+}
+
+#N{
+    height: 3vw;
+    width: 3vw;
+}
+
+#G{
+    height: 3vw;
+    width: 3vw;
+}

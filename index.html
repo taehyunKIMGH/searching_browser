@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="clock">00:00</h2>
+    <form id="login-form">
+        <input required maxlength="15" type="text" placeholder="이름을 입력해주세요" autocomplete='off'>
+        <button>Log In</button>
+    </form>    
+    <h1 id="greeting" class="hidden"></h1>
+    
+    <form id="search">
+        <select id="select">
+            <option value="NAVER">NAVER</option>
+            <option value="GOOGLE">GOOGLE</option>
+        </select>
+        <input type="text" required placeholder="무엇을 검색할까요?" id="searching" autocomplete='off'>
+        <i class="fa-sharp fa-solid fa-magnifying-glass" id="gosearch"></i>
+    </form>
+    
+    <form id="todo-form">
+        <input type="text" placeholder="메모할 내용을 적어주세요" required autocomplete='off'>
+    </form>    
+    <ul id="todo-list"></ul>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div id = "mail">
+        <button id = "Nmail"><img src="image/navermail.png" id = 'N'></button>
+        <button id = "Gmail"><img src="image/gmail.png" id = 'G'></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
